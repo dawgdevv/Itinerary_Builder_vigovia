@@ -1,0 +1,158 @@
+{
+  "id": "20241019150405",
+  "user_id": "user-123",
+  "title": "Paris City Tour",
+  "description": "A 3-day tour of the beautiful city of Paris",
+  "start_date": "2024-11-15T00:00:00Z",
+  "end_date": "2024-11-17T00:00:00Z",
+  "location": "Paris, France",
+  "hotels": [
+    {
+      "name": "Hotel Lumiere",
+      "city": "Paris, France",
+      "check_in": "2024-11-15T15:00:00Z",
+      "check_out": "2024-11-18T11:00:00Z",
+      "nights": 3
+    }
+  ],
+  "flights": [
+    {
+      "airline": "Air France",
+      "flight_number": "AF123",
+      "departure_city": "New York, USA",
+      "departure_airport": "JFK",
+      "departure_time": "2024-11-14T21:30:00Z",
+      "arrival_city": "Paris, France",
+      "arrival_airport": "CDG",
+      "arrival_time": "2024-11-15T10:45:00Z"
+    }
+  ],
+  "transfers": [
+    {
+      "mode": "private car",
+      "pickup": "Charles de Gaulle Airport",
+      "dropoff": "Hotel Lumiere",
+      "pickup_time": "11:15",
+      "notes": "Driver will wait at exit gate 2"
+    }
+  ],
+  "payment_plan": [
+    {
+      "installment_number": 1,
+      "amount": 1200.0,
+      "currency": "EUR",
+      "due_date": "2024-09-01T00:00:00Z",
+      "status": "Paid"
+    },
+    {
+      "installment_number": 2,
+      "amount": 1200.0,
+      "currency": "EUR",
+      "due_date": "2024-10-15T00:00:00Z",
+      "status": "Pending"
+    }
+  ],
+  "inclusions": [
+    "Daily breakfast",
+    "Seine river cruise",
+    "Skip-the-line Louvre tickets"
+  ],
+  "exclusions": ["International airfare", "Travel insurance"],
+  "days": [
+    {
+      "day_number": 1,
+      "date": "2024-11-15T00:00:00Z",
+      "title": "Arrival and Eiffel Tower",
+      "activities": [
+        {
+          "period": "morning",
+          "time": "10:45",
+          "title": "Land in Paris",
+          "description": "Land at Charles de Gaulle Airport and clear immigration",
+          "location": "CDG Terminal 2",
+          "duration": "1 hour"
+        },
+        {
+          "period": "afternoon",
+          "time": "15:00",
+          "title": "Check-in and Rest",
+          "description": "Check-in at Hotel Lumiere and unwind",
+          "location": "Hotel Lumiere",
+          "duration": "2 hours"
+        },
+        {
+          "period": "evening",
+          "time": "19:00",
+          "title": "Eiffel Tower Dinner",
+          "description": "Dinner at 58 Tour Eiffel with panoramic city views",
+          "location": "Eiffel Tower",
+          "duration": "2 hours"
+        }
+      ]
+    },
+    {
+      "day_number": 2,
+      "date": "2024-11-16T00:00:00Z",
+      "title": "Museums and Historic Sites",
+      "activities": [
+        {
+          "period": "morning",
+          "time": "09:00",
+          "title": "Louvre Museum Tour",
+          "description": "Guided highlights tour of the Louvre",
+          "location": "Louvre Museum",
+          "duration": "3 hours"
+        },
+        {
+          "period": "afternoon",
+          "time": "14:00",
+          "title": "Notre-Dame and Latin Quarter",
+          "description": "Walk the Latin Quarter and visit Notre-Dame Cathedral",
+          "location": "Île de la Cité",
+          "duration": "2 hours"
+        },
+        {
+          "period": "evening",
+          "time": "19:30",
+          "title": "Seine River Cruise",
+          "description": "Illuminated evening cruise with live commentary",
+          "location": "Port de la Bourdonnais",
+          "duration": "1.5 hours"
+        }
+      ]
+    },
+    {
+      "day_number": 3,
+      "date": "2024-11-17T00:00:00Z",
+      "title": "Shopping and Departure",
+      "activities": [
+        {
+          "period": "morning",
+          "time": "10:00",
+          "title": "Champs-Élysées Shopping",
+          "description": "Visit designer boutiques and cafes",
+          "location": "Champs-Élysées",
+          "duration": "3 hours"
+        },
+        {
+          "period": "afternoon",
+          "time": "13:30",
+          "title": "Farewell Lunch",
+          "description": "Enjoy classic French cuisine before departure",
+          "location": "Le Grand Bistro",
+          "duration": "1.5 hours"
+        },
+        {
+          "period": "evening",
+          "time": "18:00",
+          "title": "Depart Paris",
+          "description": "Private transfer to Charles de Gaulle Airport",
+          "location": "Hotel Lumiere",
+          "duration": "45 minutes"
+        }
+      ]
+    }
+  ],
+  "created_at": "2024-10-19T15:04:05Z",
+  "updated_at": "2024-10-19T15:04:05Z"
+}
